@@ -1,0 +1,133 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(162, 132, 211);
+  font-size: large;
+  font-family: Georgia;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+header li a:hover {
+  background-color: rgb(53, 19, 66);
+}
+
+li a:hover {
+  background-color: rgb(53, 19, 66);
+}
+table, td, th{
+  border: 3px solid rgb(0, 0, 0);
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+Th{
+  background-color: rgb(238, 255, 1);
+}
+.centro{
+  text-align: center;
+}
+caption{
+  font-size: 30px;
+}
+.div1{
+  background-color: rgb(198, 154, 219);
+  color: aliceblue;
+  border: 10px solid rgb(178, 175, 219)
+
+}
+.div2{
+  background-color: aliceblue;
+  border: 5px dotted rgb(62, 92, 156);
+}
+p{
+background-color: rgb(162, 132, 211);
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 10px 0;
+bottom: 0;
+width: 100%;
+font-size: 0.9rem;
+font-family: Georgia;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, html {
+height: 100%;
+font-family: 'Arial', sans-serif;
+}
+
+.table-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh; 
+background: linear-gradient(248, 241, 255);
+font-family: Georgia;
+}
+
+.table-title {
+color: rgb(63, 7, 80);
+font-size: 3em;
+text-align: center;
+margin-bottom: 20px;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 20px;
+border-radius: 10px;
+font-family: Georgia;
+}
+
+table {
+width: 80%; 
+border-collapse: collapse;
+margin: 0 auto;
+background-color: rgba(82, 22, 131, 0.658);
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+padding: 20px;
+text-align: center;
+border: 1px solid rgba(255, 255, 255, 0.2);
+color: #fff;
+font-size: 1.2em;
+}
+
+th {
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+td:hover {
+background-color: rgba(255, 255, 255, 0.2);
+transition: background-color 0.3s ease;
+}

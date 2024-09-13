@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo1.css">
+    <script src="script.js" defer></script>
+    <title>Sobre Mim</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagina1.html">Sobre Mim</a></li>
+            <li><a href="pagina2.html">Metas</a></li>
+        </ul>
+    </header>
+    <header>
+        <div class="header-container">
+            <h1>Passos de uma vida em construção</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="text-explicativo">
+            <h2>Minha trajetoria...</h2>
+            <p>
+                Meu nome é Mariana Vinotti, tenho 16 anos, nasci em uma cidadezinha chamada Joinville. Sempre fui uma menina muito esperta, criativa e cativante. Atualmente, faço curso de TI, mas já estudei inglês e capoeira. Ao longo da minha vida, enfrentei diversos desafios, mas cada um deles me ajudou a me tornar a pessoa que sou hoje. Acredito que cada experiência, seja boa ou ruim, traz consigo uma lição e com isso me faz ser uma pessoa melhor a cada dia.
+                Coloquei aqui, nesse carrossel, fotos que contam um pouco sobre minha trajetória até o momento atual. 
+            </p>
+        </div>
+
+        <div class="carrosel">
+            <button class="anterior" onclick="moverCarrossel(-1)">&#10094;</button>
+            <div class="container" id="img">
+                <img src="baef0fa6-f076-4583-9c9f-b5727666905d.jpeg" class="img" alt="criança pequena">
+                <img src="67b0be03-5ab9-4b54-82d7-c1304a7413de.jpeg" class="img" alt="crianca garnde">
+                <img src="4f7427b1-9781-4520-b315-11a0fbe940a0.jpeg" class="img" alt="adolecente">
+                <img src="d46e374fc65d7b5ad438f33a459eb470.jpg" class="img" alt="adulta">
+            </div>
+            <button class="proximo" onclick="moverCarrossel(1)">&#10095;</button>
+        </div>
+        
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; 2024 - Todos os direiros reservados</p>
+   </footer>
+
+</body>
+</html>
